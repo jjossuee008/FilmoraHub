@@ -4,13 +4,17 @@
         <meta charset="UTF-8">
         <title>FilmoraHub</title>
         <link rel="stylesheet" type="text/css" href="Estilos/estilo.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="Estilos/estiloCuadroNoticia.css">
+        <link rel="stylesheet" type="text/css" href="Estilos/estiloCuadroPeliculas.css">
+        <script src="Scripts/scriptCargarPaginas.js"></script>
+        <script src="Scripts/logicaPeliculas.js"></script>
     </head>
     <body>
         <header id="sup">
-            <h1>FilmoraHub</h1>
+            <h1>FilmoraTV</h1>
         </header>
         <nav id="opciones">
+            <input id="inicio" type="button" value="Inicio">
             <input id="añadirPelicula" type="button" value="Añadir Pelicula">
             <input id="añadirNoticia" type="button" value="Añadir Noticia">
             <input id="buscador" type="text" placeholder="Buscador...">
@@ -20,22 +24,7 @@
                 <h4>Ultimas Noticias</h4>
             </section>
             <main id="peliculas">
-                <h4>Peliculas</h4>
-                <hr>
-                <section id="accion">
-                    <h5>Peliculas de accion</h5>
-                    <div id="divAccion"></div>
-                </section>
-                <hr>
-                <section id="comedia">
-                    <h5>Peliculas de comedia</h5>
-                    <div id="divComedia"></div>
-                </section>
-                <hr>
-                <section id="Drama">
-                    <h5>Peliculas de Drama</h5>
-                    <div id="divDrama"></div>
-                </section>
+                <h4>Ultimas Peliculas</h4>
             </main>
         </div>
     </body>
